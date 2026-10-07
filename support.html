@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>뭐하닝 고객 지원</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d22; --muted: #6b6b76; --line: #e3e3ea; --card: #f6f6f8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111114; --fg: #ececf1; --muted: #9a9aa6; --line: #2c2c33; --card: #1b1b20; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  .muted { color: var(--muted); }
+  .card { background: var(--card); border-radius: 12px; padding: 12px 16px; margin: 10px 0; }
+  ol, ul { padding-left: 20px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>뭐하닝 고객 지원</h1>
+  <p class="muted">일정과 할 일을 잠금화면 배경으로 보여주는 앱</p>
+
+  <h2>시작하기</h2>
+  <ol>
+    <li>구글 캘린더를 쓰신다면 iPhone <strong>설정 &gt; 앱 &gt; 캘린더 &gt; 캘린더 계정 &gt; 계정 추가 &gt; Google</strong>에서 계정을 추가하세요.</li>
+    <li>뭐하닝을 열고 캘린더 접근을 <strong>전체 접근 허용</strong>으로 승인하세요.</li>
+    <li>홈 화면에서 스타일을 고르고 미리보기를 확인하세요.</li>
+  </ol>
+
+  <h2>잠금화면 자동 갱신 설정</h2>
+  <ol>
+    <li><strong>단축어</strong> 앱 &gt; <strong>자동화</strong> &gt; <strong>+</strong> &gt; <strong>특정 시간</strong> (예: 매일 오전 0:05) &gt; <strong>즉시 실행</strong></li>
+    <li>동작 <strong>뭐하닝 배경 만들기</strong> 추가</li>
+    <li>동작 <strong>배경화면 사진 설정</strong> 추가 &gt; 대상 <strong>잠금 화면</strong>, <strong>미리보기 표시</strong>와 <strong>피사체 자르기</strong> 끄기</li>
+  </ol>
+  <p>하루에 여러 번 갱신하려면 시간만 다르게 해서 자동화를 여러 개 만드세요.</p>
+
+  <h2>자주 묻는 질문</h2>
+  <div class="card"><strong>왜 위젯이 아니라 배경 이미지인가요?</strong><br>iOS는 앱이 잠금화면에 큰 화면을 직접 그리는 것을 허용하지 않습니다. 그래서 일정이 그려진 배경을 만들고 단축어로 바꿔 끼웁니다. 작은 잠금화면 위젯(다음 일정, 올해 진행률, 오늘 일정 수)도 함께 제공합니다.</div>
+  <div class="card"><strong>일정이 바로 반영되지 않아요.</strong><br>배경은 단축어가 실행될 때 새로 만들어집니다. 앱 홈에서 새로고침한 뒤 단축어를 한 번 실행하거나, 자동화 시간을 여러 개 추가하세요.</div>
+  <div class="card"><strong>일정이 하나도 안 보여요.</strong><br>iOS 설정 &gt; 개인정보 보호 및 보안 &gt; 캘린더에서 뭐하닝이 '전체 접근'인지 확인하세요. iOS 캘린더 앱에 구글 일정이 보이는지도 확인해 주세요.</div>
+  <div class="card"><strong>제목이 잘려 보여요.</strong><br>달력 칸이 좁아 긴 제목은 줄여 표시됩니다. 설정 &gt; 일정 제목 말머리에서 "(수업)", "[과목]" 같은 말머리를 숨기면 내용이 더 많이 보입니다.</div>
+
+  <h2>문의</h2>
+  <p><a href="mailto:kingkimkil@gmail.com">kingkimkil@gmail.com</a></p>
+  <p><a href="privacy-policy.html">개인정보 처리방침</a></p>
+</main>
+</body>
+</html>
